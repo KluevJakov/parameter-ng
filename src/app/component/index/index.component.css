@@ -1,0 +1,91 @@
+.bg-card {
+    background-color: #ffffffa3;
+    border-radius: 25px;
+    box-shadow: #b3b3b3 15px 15px 30px;
+    transition: .4s;
+    z-index: 1;
+    padding: 70px;
+    backdrop-filter: blur(20px);
+}
+
+.bg-card:hover {
+    box-shadow: #888888 15px 15px 30px;
+    transition: .4s;
+}
+
+.bg-main {
+    min-height: 100vh;
+}
+
+.bg-card-end {
+    background-color: #ffffffa3;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: #b3b3b3 15px 15px 30px;
+    transition: .4s;
+    z-index: 1;
+    padding: 70px;
+    backdrop-filter: blur(20px);
+    height: 300px;
+    align-self: end;
+}
+
+.bg-end {
+    height: 50vh;
+}
+
+.tile {
+    width: 180px;
+    height: 250px;
+    min-width: 180px;
+    min-height: 250px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.notation-text {
+    width: 450px;
+    margin-bottom: 15px;
+}
+
+
+/* бэйджи цен */
+
+.price {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.subType {
+    align-self: center;
+    margin-top: auto;
+    text-align: center;;
+}
+
+.subCost {
+    align-self: center;
+    margin-top: auto;
+    font-size: xx-large;
+}
+
+/* кляксы */
+.tk-blob {
+    width: 600px;
+    z-index: -1;
+    position: fixed;
+}
+
+.blob1 {
+    bottom: -150px;
+    left: -150px;
+    /*filter: blur(10px);*/
+}
+
+.blob2 {
+    top: -150px;
+    right: -150px;
+    /*filter: blur(10px);*/
+}
