@@ -13,6 +13,9 @@ import { AdvicerComponent } from './component/advicer/advicer.component';
 import { SheetComponent } from './component/sheet/sheet.component';
 import { AuthComponent } from './component/auth/auth.component';
 import { HeaderComponent } from './fragments/header/header.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,11 @@ import { HeaderComponent } from './fragments/header/header.component';
   imports: [
     BrowserModule,
     NgbModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    FormsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

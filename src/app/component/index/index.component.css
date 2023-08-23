@@ -1,26 +1,16 @@
-.bg-card {
-    background-color: #ffffffa3;
-    border-radius: 25px;
-    box-shadow: #b3b3b3 15px 15px 30px;
-    transition: .4s;
-    z-index: 1;
-    padding: 70px;
-    backdrop-filter: blur(20px);
+.bg-main {
+    min-height: 100vh;
 }
 
 .bg-card:hover {
-    box-shadow: #888888 15px 15px 30px;
+    box-shadow: #888888 0px 0px 30px;
     transition: .4s;
-}
-
-.bg-main {
-    min-height: 100vh;
 }
 
 .bg-card-end {
     background-color: #ffffffa3;
     border-radius: 25px 25px 0px 0px;
-    box-shadow: #b3b3b3 15px 15px 30px;
+    box-shadow: #b3b3b3 0px 0px 30px;
     transition: .4s;
     z-index: 1;
     padding: 70px;

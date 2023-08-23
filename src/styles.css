@@ -6,3 +6,13 @@ body {
     scroll-behavior: smooth;
     font-family: 'Manrope', sans-serif;
 }
+
+.bg-card {
+    background-color: #ffffffa3;
+    border-radius: 25px;
+    box-shadow: #d8d8d8 0px 0px 15px;
+    transition: .4s;
+    z-index: 1;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+}

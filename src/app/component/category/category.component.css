@@ -1,0 +1,28 @@
+.border-right-income {
+    border-right: 1px solid rgb(179, 179, 179);
+}
+
+.custom-card-width {
+    width: 85%;
+    cursor: pointer;
+}
+
+.income-card {
+    transition: .3s;
+    background-color: #7efda8;
+}
+
+.expend-card {
+    transition: .3s;
+    background-color: #ffa37f;
+}
+
+.income-card:hover {
+    transition: .3s;
+    background-color: #4acc75;
+}
+
+.expend-card:hover {
+    transition: .3s;
+    background-color: #dd774e;
+}
